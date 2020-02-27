@@ -2,11 +2,8 @@
  Sketch example for using PT2257 - Electronic Volume Controller IC.
  Created by Victor NPB, December 9, 2014.
 
- Connect the IC to the following pins, you can change it in the .c file.
+ Connect the IC to the SCL and SDA pins.
  Pull-up resistors are required on both pins (4K7 or 10K should be fine).
-
- SCL -> A0
- SDA -> A1
 
  Volume Attenuation are expressed as unsigned integers
 
