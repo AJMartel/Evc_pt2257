@@ -8,16 +8,6 @@
 #include "Arduino.h"
 #include "Evc_pt2257.h"
 
-
-//Include Soft I2C library
-//modify this if you want to change ports
-#define SCL_PIN 0 
-#define SCL_PORT PORTC 
-#define SDA_PIN 1 
-#define SDA_PORT PORTC
-#include "SoftI2CMaster.h"
-
-
 /*
 
 PT2257 - Electronic Volume Controller IC
